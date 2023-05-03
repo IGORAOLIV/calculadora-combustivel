@@ -4,8 +4,8 @@ let consumoCarro = 12; // Quilômetros por litro
 let distanciaViagem = 200; // Quilômetros
 
 // Calcula o valor gasto em combustível
-let litrosConsumidos = distanciaViagem / consumoCarro;
-let valorGasto = litrosConsumidos * precoCombustivel;
+const litrosConsumidos = distanciaViagem / consumoCarro;
+const valorGasto = litrosConsumidos * precoCombustivel;
 
 // Imprime o resultado
 console.log("O valor gasto em combustível será de R$" + valorGasto.toFixed(2));
